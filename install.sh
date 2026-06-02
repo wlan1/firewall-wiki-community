@@ -6,7 +6,7 @@ INSTALL_DIR="/opt/${APP_NAME}"
 CONFIG_PATH="${INSTALL_DIR}/config.cfg"
 SERVICE_PATH="/etc/systemd/system/${APP_NAME}.service"
 
-REPO_RAW="${REPO_RAW:-https://raw.githubusercontent.com/firewall-wiki/community/main}"
+REPO_RAW="${REPO_RAW:-https://raw.githubusercontent.com/wlan1/firewall-wiki-community/main}"
 CONFIG_URL="${CONFIG_URL:-}"
 
 IFACE="${IFACE:-eth0}"
