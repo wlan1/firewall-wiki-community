@@ -5,7 +5,7 @@ Origin protection for Linux servers running behind Cloudflare or a protected gat
 Firewall.wiki Community helps protect selected origin ports from abusive client traffic while keeping deployment simple.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/firewall-wiki-community/main/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/wlan1/firewall-wiki-community/main/install.sh | sudo bash
 ```
 
 ## Recommended deployment
@@ -70,19 +70,19 @@ Debian 12+
 Default install:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/firewall-wiki-community/main/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/wlan1/firewall-wiki-community/main/install.sh | sudo bash
 ```
 
 Install with custom interface:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/firewall-wiki-community/main/install.sh | sudo IFACE=eth0 bash
+curl -fsSL https://raw.githubusercontent.com/wlan1/firewall-wiki-community/main/install.sh | sudo IFACE=eth0 bash
 ```
 
 Install with custom config URL:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/firewall-wiki-community/main/install.sh | sudo CONFIG_URL=https://example.com/config.cfg bash
+curl -fsSL https://raw.githubusercontent.com/wlan1/firewall-wiki-community/main/install.sh | sudo CONFIG_URL=https://example.com/config.cfg bash
 ```
 
 ## Configuration
